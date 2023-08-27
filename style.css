@@ -201,7 +201,7 @@
   border: 0.3rem solid black;
   border-radius: 1.5rem;
   padding: 1.5rem;
-  scroll-snap-type: y mandatory;
+  background: rgba(255, 255, 255, 0.4);
 }
 
 @media (min-width: 992px) {
@@ -778,7 +778,7 @@
   /* border: 0.1rem solid black; */
 }
 
-@media (max-width:479px) and (min-width: 0px) {
+@media (max-width: 479px) and (min-width: 0px) {
   #footer .copyright {
     font-size: 1.4rem;
   }
@@ -789,7 +789,7 @@
   opacity: 1;
 }
 
-@media (max-width:479px) and (min-width: 0px) {
+@media (max-width: 479px) and (min-width: 0px) {
   #footer .copyright a {
     font-size: 1.4rem;
     opacity: 1;
